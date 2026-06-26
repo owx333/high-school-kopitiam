@@ -35,3 +35,7 @@ work
 Thumbs.db
 .vscode
 .idea
+
+# exported deliverables
+outputs
+*.zip

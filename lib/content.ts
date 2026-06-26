@@ -1,4 +1,4 @@
-export type Language = "zh" | "en";
+﻿export type Language = "zh" | "en";
 
 export const imageNames = {
   hero: "hero-campus-building.jpg",
@@ -22,9 +22,9 @@ export const seoByLanguage = {
       "初中一校是一间位于 Johor Bahru 的校园主题咖啡馆，拥有 Mount Austin 与高雅分行，主打校园怀旧空间、特色美食、咖啡、甜点与聚会体验。"
   },
   en: {
-    title: "High School Kopitiam | Campus Theme Café in Johor Bahru",
+    title: "High School Kopitiam | Campus Theme Cafe in Johor Bahru",
     description:
-      "High School Kopitiam is a campus-themed café in Johor Bahru with Mount Austin and Gaya branches, offering nostalgic school-inspired interiors, signature food, coffee, desserts, and gathering experiences."
+      "High School Kopitiam is a campus-themed cafe in Johor Bahru with Mount Austin and Gaya branches, offering nostalgic school-inspired interiors, signature food, coffee, desserts, and gathering experiences."
   }
 };
 
@@ -66,7 +66,7 @@ export const content = {
     },
     campus: {
       title: "校园里的咖啡馆",
-      subtitle: "A café hidden inside your school memories.",
+      subtitle: "A cafe hidden inside your school memories.",
       paragraphs: [
         "有些地方，不是因为豪华才让人记得，而是因为它让你想起从前的自己。",
         "初中一校用校园主题打造一个轻松、温暖、有记忆点的用餐空间。黑板、课桌、书本、纸飞机、秋千和阳光，每一个角落都适合拍照，也适合慢慢坐下来享受生活。"
@@ -82,7 +82,7 @@ export const content = {
           "初中一校由 Yvonne 创办。她相信，一间好的咖啡馆不只是卖食物，而是创造人与人之间的回忆。",
           "她希望每一位来到初中一校的人，都可以暂时放下生活的忙碌，回到那个简单、开心、充满笑声的学生时代。"
         ],
-        quote: "我们想做的不只是一间 Café，而是一间让人想再回来一次的校园。"
+        quote: "我们想做的不只是一间 Cafe，而是一间让人想再回来一次的校园。"
       },
       chef: {
         title: "每一道料理，都值得认真对待",
@@ -97,21 +97,11 @@ export const content = {
     },
     food: {
       title: "今日食堂推荐",
-      subtitle: "Today’s Canteen Favourites",
+      subtitle: "Today's Canteen Favourites",
       intro:
         "来到初中一校，当然要好好享受一顿属于校园时光的美食。这里有咖啡、早午餐、主食、甜点和特色饮料，无论是朋友聚会、家庭用餐，还是下午茶打卡，都能找到适合你的味道。",
       button: "查看完整菜单",
-      badge: "校长推荐",
-      items: [
-        { name: "爆浆竹炭三明治", sub: "Charcoal Signature Sandwich", category: "校长推荐", image: imageNames.charcoal },
-        { name: "招牌咖啡", sub: "Signature Latte", category: "招牌咖啡", image: imageNames.coffee },
-        { name: "校园汉堡", sub: "School Burger", category: "食堂主食", image: imageNames.burger },
-        { name: "奶油意面", sub: "Creamy Pasta", category: "课后主食", image: imageNames.pasta },
-        { name: "经典鸡扒", sub: "Classic Chicken Chop", category: "食堂主食", image: imageNames.pasta },
-        { name: "特色炒饭", sub: "Signature Fried Rice", category: "校长推荐", image: imageNames.burger },
-        { name: "巧克力蛋糕", sub: "Chocolate Cake", category: "课后甜点", image: imageNames.charcoal },
-        { name: "水果茶", sub: "Fruit Tea", category: "青春饮品", image: imageNames.coffee }
-      ]
+      badge: "校长推荐"
     },
     why: {
       title: "为什么大家喜欢回来这里？",
@@ -129,38 +119,30 @@ export const content = {
       map: "Google Map 导航",
       whatsapp: "WhatsApp 预订",
       items: [
-        { name: "Mount Austin \u5206\u884c", sub: "Mount Austin Campus", address: "57, Jalan Austin Heights 8/5, 81100 Johor Bahru, Johor Darul Ta'zim", image: imageNames.mountAustin },
-        { name: "\u9ad8\u96c5\u5206\u884c", sub: "Gaya Campus", address: "57, Jalan Austin Heights 8/5, 81100 Johor Bahru, Johor Darul Ta'zim", image: imageNames.gaya }
+        { name: "Mount Austin 分行", sub: "Mount Austin Campus", address: "57, Jalan Austin Heights 8/5, 81100 Johor Bahru, Johor Darul Ta'zim", image: imageNames.mountAustin },
+        { name: "高雅分行", sub: "Gaya Campus", address: "14, Jalan Gaya 26, Taman Gaya, 81800 Ulu Tiram, Johor Darul Ta'zim", image: imageNames.gaya }
       ]
     },
     gallery: {
       title: "校园回忆录",
       subtitle: "Moments worth keeping.",
       intro: "有些照片，不是为了证明我们去过哪里，而是为了记得当时的心情。",
-      categories: ["环境", "美食", "朋友聚会", "校园角落"],
-      items: [
-        { title: "午后课室", category: "环境", image: imageNames.hero },
-        { title: "食堂推荐", category: "美食", image: imageNames.charcoal },
-        { title: "秋千旁边", category: "校园角落", image: imageNames.swing },
-        { title: "咖啡时光", category: "美食", image: imageNames.coffee },
-        { title: "Mount Austin", category: "朋友聚会", image: imageNames.mountAustin },
-        { title: "高雅 Gaya", category: "环境", image: imageNames.gaya }
-      ]
+      categories: ["环境", "美食", "朋友聚会", "校园角落"]
     },
     reviews: {
       title: "同学们的留言",
       subtitle: "What our classmates say.",
-      label: "\u540c\u5b66\u7559\u8a00",
+      label: "同学留言",
       items: [
         "今天不是来喝咖啡，而是来找回青春。",
         "环境很有特色，食物也很好吃，很适合朋友聚会和拍照。",
         "很喜欢校园主题，纸飞机、黑板、课桌都很有感觉。"
-      ],
+      ]
     },
     finalStory: {
       title: "骑上单车，出发吧。",
       subtitle: "Every visit is a little journey back.",
-      bellLine: "\u5f53\u949f\u58f0\u54cd\u8d77\uff0c\u6211\u4eec\u521d\u4e2d\u4e00\u6821\u89c1\uff01",
+      bellLine: "当钟声响起，我们初中一校见！",
       paragraphs: [
         "也许我们早就离开校园，但那些年留下来的感觉，一直都在。",
         "当你来到初中一校，喝一杯咖啡，吃一份美食，和朋友聊一聊从前，你会发现，青春其实从来没有走远。"
@@ -168,7 +150,7 @@ export const content = {
       button: "欢迎回来，同学"
     },
     contact: {
-      title: "\u6821\u957f\u5ba4 Contact Us",
+      title: "校长室 Contact Us",
       subtitle: "Reservation, gathering, or a little question.",
       intro: "想订位、询问菜单、举办聚会或了解更多，欢迎联系我们。",
       fields: { name: "Name", phone: "Phone", branch: "Branch", message: "Message" },
@@ -182,15 +164,15 @@ export const content = {
       social: [
         { label: "Facebook", href: "https://www.facebook.com/profile.php?id=100063529394723" },
         { label: "Instagram", href: "https://www.instagram.com/highschoolkopitiam" },
-        { label: "TikTok", href: "#" },
-        { label: "Google Review", href: "#" }
+        { label: "TikTok", href: "https://www.tiktok.com/@.high.school.kopi" },
+        { label: "Google Review", href: "https://share.google/lBaPuoR6Uvh88ymAo" }
       ],
       copyright: "© 2026 初中一校 High School Kopitiam. All Rights Reserved."
     }
   },
   en: {
     brand: "High School Kopitiam",
-    brandSub: "Form 1 School Café",
+    brandSub: "Form 1 School Cafe",
     nav: {
       home: "Home",
       about: "Our Story",
@@ -201,14 +183,14 @@ export const content = {
       cta: "Reserve / Takeaway"
     },
     hero: {
-      eyebrow: "Campus Theme Café in Johor Bahru",
+      eyebrow: "Campus Theme Cafe in Johor Bahru",
       title: "Welcome Back to High School Kopitiam",
       subtitle: "Coffee, comfort food, and the school days you kept somewhere soft.",
       description:
-        "This is not just a café. It is a campus built for old memories, warm tables, and little moments that feel familiar the second you walk in.",
+        "This is not just a cafe. It is a campus built for old memories, warm tables, and little moments that feel familiar the second you walk in.",
       primary: "Enter Campus",
       secondary: "View Menu",
-      noticeTitle: "Today’s Class Hours",
+      noticeTitle: "Today's Class Hours",
       noticeDays: "Monday - Sunday",
       noticeTime: "08:00 AM - 06:00 PM",
       campus: "JB Campus",
@@ -218,14 +200,14 @@ export const content = {
       title: "The Place We Grew Up With",
       subtitle: "Back to the days we never forgot.",
       paragraphs: [
-        "High School Kopitiam is a campus-themed café inspired by classrooms, chalkboards, old desks, school corners, and the quiet warmth of food shared with people you care about.",
+        "High School Kopitiam is a campus-themed cafe inspired by classrooms, chalkboards, old desks, school corners, and the quiet warmth of food shared with people you care about.",
         "Come for a meal, stay for the feeling. It is made for family dinners, coffee dates, photo moments, and those afternoons when you simply want to sit down and remember who you used to be."
       ],
       quote: "Youth may graduate, but memories never leave school."
     },
     campus: {
-      title: "A Café Inside Your School Memories",
-      subtitle: "A café hidden inside your school memories.",
+      title: "A Cafe Inside Your School Memories",
+      subtitle: "A cafe hidden inside your school memories.",
       paragraphs: [
         "Some places stay with us not because they are grand, but because they bring back a version of ourselves we almost forgot.",
         "Here, chalkboards, desks, notebooks, paper planes, swings, and sunlight come together in a dining space that feels calm, photogenic, and quietly emotional."
@@ -234,14 +216,14 @@ export const content = {
     },
     people: {
       founder: {
-        title: "The Founder’s Heart",
+        title: "The Founder's Heart",
         subtitle: "The heart behind the school.",
         role: "Founder Yvonne",
         paragraphs: [
-          "Founded by Yvonne, High School Kopitiam was created with a simple belief: a good café should serve more than food. It should give people a place to make memories.",
+          "Founded by Yvonne, High School Kopitiam was created with a simple belief: a good cafe should serve more than food. It should give people a place to make memories.",
           "She hopes every guest can pause the rush of daily life and return, even briefly, to the easy laughter and innocence of school days."
         ],
-        quote: "We are not only building a café. We are building a campus people want to come back to."
+        quote: "We are not only building a cafe. We are building a campus people want to come back to."
       },
       chef: {
         title: "Every Dish Deserves Care",
@@ -255,22 +237,12 @@ export const content = {
       }
     },
     food: {
-      title: "Today’s Canteen Favourites",
+      title: "Today's Canteen Favourites",
       subtitle: "Signature food for slow campus days.",
       intro:
         "From coffee and brunch to mains, desserts, and house drinks, the menu is made for family meals, friendly catch-ups, afternoon tea, and photos worth keeping.",
       button: "View Full Menu",
-      badge: "Principal’s Pick",
-      items: [
-        { name: "Charcoal Signature Sandwich", sub: "Warm, crisp, and full of comfort", category: "Principal’s Pick", image: imageNames.charcoal },
-        { name: "Signature Latte", sub: "A smooth cup for slow afternoons", category: "Signature Coffee", image: imageNames.coffee },
-        { name: "School Burger", sub: "A nostalgic canteen favourite", category: "Canteen Mains", image: imageNames.burger },
-        { name: "Creamy Pasta", sub: "Rich, mellow, and familiar", category: "After School Mains", image: imageNames.pasta },
-        { name: "Classic Chicken Chop", sub: "A satisfying plate with heart", category: "Canteen Mains", image: imageNames.pasta },
-        { name: "Signature Fried Rice", sub: "Comfort food with wok warmth", category: "Principal’s Pick", image: imageNames.burger },
-        { name: "Chocolate Cake", sub: "A sweet finish after class", category: "After School Desserts", image: imageNames.charcoal },
-        { name: "Fruit Tea", sub: "Bright, fresh, and easy to share", category: "School Drinks", image: imageNames.coffee }
-      ]
+      badge: "Principal's Pick"
     },
     why: {
       title: "Why Guests Keep Coming Back",
@@ -289,22 +261,14 @@ export const content = {
       whatsapp: "WhatsApp Booking",
       items: [
         { name: "Mount Austin Campus", sub: "Mount Austin Branch", address: "57, Jalan Austin Heights 8/5, 81100 Johor Bahru, Johor Darul Ta'zim", image: imageNames.mountAustin },
-        { name: "Gaya Campus", sub: "Gaya Branch", address: "57, Jalan Austin Heights 8/5, 81100 Johor Bahru, Johor Darul Ta'zim", image: imageNames.gaya }
+        { name: "Gaya Campus", sub: "Gaya Branch", address: "14, Jalan Gaya 26, Taman Gaya, 81800 Ulu Tiram, Johor Darul Ta'zim", image: imageNames.gaya }
       ]
     },
     gallery: {
       title: "Campus Memory Book",
       subtitle: "Moments worth keeping.",
       intro: "Some photos are not taken to prove where we went. They are taken to remember how we felt.",
-      categories: ["Environment", "Food", "Friends", "School Corners"],
-      items: [
-        { title: "Afternoon Classroom", category: "Environment", image: imageNames.hero },
-        { title: "Canteen Favourite", category: "Food", image: imageNames.charcoal },
-        { title: "Beside the Swing", category: "School Corners", image: imageNames.swing },
-        { title: "Coffee Hour", category: "Food", image: imageNames.coffee },
-        { title: "Mount Austin", category: "Friends", image: imageNames.mountAustin },
-        { title: "Gaya", category: "Environment", image: imageNames.gaya }
-      ]
+      categories: ["Environment", "Food", "Friends", "School Corners"]
     },
     reviews: {
       title: "Notes From Our Classmates",
@@ -314,7 +278,7 @@ export const content = {
         "I came for coffee, but somehow found a little piece of my youth.",
         "The setting is full of character, the food is comforting, and it is perfect for gathering with friends.",
         "The campus theme feels thoughtful. The paper planes, chalkboards, and desks bring everything together."
-      ],
+      ]
     },
     finalStory: {
       title: "Ride Out, Slowly.",
@@ -341,8 +305,8 @@ export const content = {
       social: [
         { label: "Facebook", href: "https://www.facebook.com/profile.php?id=100063529394723" },
         { label: "Instagram", href: "https://www.instagram.com/highschoolkopitiam" },
-        { label: "TikTok", href: "#" },
-        { label: "Google Review", href: "#" }
+        { label: "TikTok", href: "https://www.tiktok.com/@.high.school.kopi" },
+        { label: "Google Review", href: "https://share.google/lBaPuoR6Uvh88ymAo" }
       ],
       copyright: "© 2026 High School Kopitiam. All Rights Reserved."
     }

@@ -488,7 +488,7 @@ function PeopleSection({ lang }: { lang: Language }) {
                 ))}
               </div>
               <blockquote className={`mt-7 rounded-2xl p-5 font-serifZh text-xl font-black leading-relaxed ${person.dark ? "bg-paper/10" : "bg-cream text-chalk"}`}>
-                â€œ{person.quote}â€
+                {"\u201c"}{person.quote}{"\u201d"}
               </blockquote>
             </div>
           </motion.article>
@@ -781,11 +781,11 @@ function ContactSection({ lang }: { lang: Language }) {
         </div>
         <div className="grid gap-2 font-semibold text-ink/70">
           <span>Mount Austin</span>
-          <span>é«˜é›… Gaya</span>
+          <span>{"\u9ad8\u96c5 Gaya"}</span>
         </div>
         <div className="grid gap-2 font-semibold text-ink/70">
           {t.social.map((item) => (
-            <a key={item.label} href={item.href} target={item.href === "#" ? undefined : "_blank"} rel={item.href === "#" ? undefined : "noreferrer"} className="hover:text-chalk">
+            <a key={item.label} href={item.href} target="_blank" rel="noreferrer" className="hover:text-chalk">
               {item.label}
             </a>
           ))}
@@ -827,6 +827,8 @@ export default function HomePage() {
     </>
   );
 }
+
+
 
 
 
