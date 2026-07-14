@@ -172,7 +172,7 @@ export const content = {
   },
   en: {
     brand: "High School Kopitiam",
-    brandSub: "Form 1 School Cafe",
+    brandSub: "High School Kopitiam",
     nav: {
       home: "Home",
       about: "Our Story",
