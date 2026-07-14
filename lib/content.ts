@@ -53,7 +53,7 @@ export const content = {
       noticeDays: "Monday - Sunday",
       noticeTime: "08:00 AM - 06:00 PM",
       campus: "JB Campus",
-      campuses: ["Mount Austin", "高雅 Gaya"]
+      campuses: ["Mount Austin", "Taman Gaya"]
     },
     about: {
       title: "那些年，我们一起长大的地方",
