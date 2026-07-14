@@ -1,4 +1,4 @@
-﻿export const foodMenu = [
+export const foodMenu = [
   {
     key: "charcoalSandwich",
     image: "/images/food/charcoal-sandwich.jpg",
@@ -6,101 +6,101 @@
     categoryZh: "校长推荐",
     categoryEn: "Principal's Pick",
     nameZh: "爆浆鸡排三明治",
-    nameEn: "Charcoal Chicken Sandwich",
+    nameEn: "Cheesy Chicken Sandwich",
     subZh: "外酥内馅饱满，适合慢慢分享。",
-    subEn: "Warm, crisp, and full of comfort.",
-    altZh: "爆浆鸡扒三明治美食照片",
-    altEn: "Charcoal signature sandwich food photography"
+    subEn: "Crispy toast with juicy chicken and melted cheese in every bite.",
+    altZh: "爆浆鸡排三明治美食照片",
+    altEn: "Cheesy chicken sandwich"
   },
   {
     key: "signatureCoffee",
     image: "/images/food/signature-coffee.jpg",
     replaceName: "signature-coffee.jpg",
     categoryZh: "初中爆品",
-    categoryEn: "Signature food",
+    categoryEn: "Best Seller",
     nameZh: "初中肉丝蛋饼",
     nameEn: "High School Egg Roll",
     subZh: "特制美味香甜的蛋饼，放学后必点。",
-    subEn: "A rich house coffee made for after-school sweet time.",
-    altZh: "初中特调咖啡照片",
-    altEn: "High School special coffee photography"
+    subEn: "Our signature egg roll filled with seasoned shredded chicken. A customer favourite.",
+    altZh: "初中肉丝蛋饼照片",
+    altEn: "High School egg roll"
   },
   {
     key: "chickenChop",
     image: "/images/food/chicken-chop.jpg",
     replaceName: "chicken-chop.jpg",
     categoryZh: "初中风味",
-    categoryEn: "High School Special",
+    categoryEn: "School Special",
     nameZh: "初中椰浆饭",
     nameEn: "High School Nasi Lemak",
     subZh: "经典美味，元气满满的一盘满足。",
-    subEn: "A hearty school special with classic Malaysian comfort.",
+    subEn: "Malaysia's favourite nasi lemak served the High School way.",
     altZh: "初中椰浆饭照片",
-    altEn: "High School nasi lemak food photography"
+    altEn: "High School nasi lemak"
   },
   {
     key: "nasiLemak",
     image: "/images/food/nasi-lemak.jpg",
     replaceName: "nasi-lemak.jpg",
     categoryZh: "初中必点",
-    categoryEn: "High School Special",
+    categoryEn: "Must Try",
     nameZh: "初中 Mee Siam",
     nameEn: "High School Mee Siam",
     subZh: "本校不止能让你回忆，还能让你吃美食。",
-    subEn: "A nostalgic Mee Siam that brings back school-day flavours.",
+    subEn: "A nostalgic Mee Siam that brings back unforgettable school memories.",
     altZh: "初中 Mee Siam 照片",
-    altEn: "High School Mee Siam food photography"
+    altEn: "High School Mee Siam"
   },
   {
     key: "pasta",
     image: "/images/food/pasta.jpg",
     replaceName: "pasta.jpg",
     categoryZh: "初中必点",
-    categoryEn: "High School Special",
+    categoryEn: "Must Try",
     nameZh: "初中咖喱面",
     nameEn: "High School Curry Mee",
     subZh: "超级入味，一碗最熟悉的课后温暖。",
-    subEn: "Super taste with a comforting after-school warmth.",
-    altZh: "初中卤肉饭照片",
-    altEn: "High School braised pork rice food photography"
+    subEn: "Rich, aromatic curry broth with noodles that warm both heart and soul.",
+    altZh: "初中咖喱面照片",
+    altEn: "High School curry mee"
   },
   {
     key: "burger",
     image: "/images/food/burger.jpg",
     replaceName: "burger.jpg",
     categoryZh: "初中家乡味",
-    categoryEn: "High School Special",
+    categoryEn: "Home-style Favourite",
     nameZh: "初中咖喱鸡饭",
-    nameEn: "High School Chicken Curry Rice",
+    nameEn: "High School Curry Chicken Rice",
     subZh: "香喷喷的咖喱鸡，课后最满足的一盘。",
-    subEn: "Crispy chicken chop with fries and salad, made for a satisfying meal.",
-    altZh: "初中鸡扒照片",
-    altEn: "High School chicken chop food photography"
+    subEn: "Tender chicken simmered in fragrant curry, served with fluffy rice.",
+    altZh: "初中咖喱鸡饭照片",
+    altEn: "High School curry chicken rice"
   },
   {
     key: "cake",
     image: "/images/food/cake.jpg",
     replaceName: "cake.jpg",
     categoryZh: "初中特调",
-    categoryEn: "After School Sweet Time",
+    categoryEn: "Signature Coffee",
     nameZh: "初中特调咖啡",
-    nameEn: "High School Coffee",
+    nameEn: "High School Signature Coffee",
     subZh: "特调咖啡，放学后的甜甜回忆。",
-    subEn: "Peanut or chocolate waffle for after-school sweet time.",
-    altZh: "初中格子饼照片",
-    altEn: "High School waffle food photography"
+    subEn: "A smooth signature coffee crafted for your after-school memories.",
+    altZh: "初中特调咖啡照片",
+    altEn: "High School signature coffee"
   },
   {
     key: "fruitTea",
     image: "/images/food/fruit-tea.jpg",
     replaceName: "fruit-tea.jpg",
     categoryZh: "初中小吃/饮品",
-    categoryEn: "High School Drinks",
+    categoryEn: "Snacks & Drinks",
     nameZh: "各种初中小吃/饮品",
-    nameEn: "High School Popular Drinks",
+    nameEn: "High School Snacks & Drinks",
     subZh: "各种小吃、火爆饮料，一起干杯。",
-    subEn: "Coffee, fruit tea, and popular drinks made for sharing.",
+    subEn: "A delicious selection of snacks and refreshing drinks for everyone.",
     altZh: "各种初中饮品照片",
-    altEn: "High School popular drinks photography"
+    altEn: "High School snacks and drinks"
   }
 ] as const;
