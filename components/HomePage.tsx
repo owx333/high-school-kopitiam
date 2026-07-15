@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import {
@@ -11,7 +11,6 @@ import {
   MapPin,
   Menu,
   MessageCircle,
-  Send,
   Star,
   X
 } from "lucide-react";
@@ -760,10 +759,6 @@ function ContactSection({ lang }: { lang: Language }) {
               <MessageCircle size={18} />
               {t.whatsapp}
             </a>
-            <button type="button" className="inline-flex items-center justify-center gap-2 rounded-full bg-sunlight px-6 py-4 font-bold text-ink">
-              <Send size={18} />
-              {t.send}
-            </button>
           </div>
         </form>
       </div>
